@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/Avatar.png" alt="avatar da Felipe" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Felipe_</p>
+        <h1>Eu estudante do ensino médio</h1>
+        <p>Pretendo fazer faculdade de Arquitetura ou Engenharia civil</p>
+        <p>Minhas cursos</p>
+        <div>
+            <p class="badge bg-secondary">Inglês</p>
+            <p class="badge bg-secondary">Redação</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Olimpiada de história</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus cursos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Fisk.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Minha Curso de Ingles</h5>
+                        <p class="card-text">Esse é o curso onde eu estou aprendendo Inglês. Eu ja falo bem o Inglês, consigo traduzir palavras em diversos textos.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/descomplica.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Curso de Redação
+                           </h5>
+                        <p class="card-text">Eu estou desenvolvendo uma redação graças a essa plataforma. O descomplica e uma plataforma muito boa de aprendizado.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/alura.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Curso do Alura
+                        </h5>
+                        <p class="card-text">Eu estou desenvolvendo um projeto no JavaScript sobre criação de um portifólio. Essa pagina faz parte de um dos meus projetos.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <!-- Projeto 4 -->
+          <div class="col-md-4">
+            <div class="card">
+                <img src="img/historia.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                <div class="card-body">
+                    <h5 class="card-title">Olimpiada de História
+                    </h5>
+                    <p class="card-text">Eu participei da ONHB EM 2023. Cheguei até o 3 fase da Olimpiada junto com meus colegas de classe.
+                    </p>
+                    <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal4">Veja
+                        o projeto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Meu curso de Ingles</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O FISK e umas das melhores escolas de Inglês do Brasil umas das mais conhecidas tambem.</p>
+                    <img src="img/Escola FISK.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/minhas-leituras/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Meu curso no Descomplica</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O curso do Descomplica oferece uma das melhores plataformas de desenvolvimento de redação.
+                    </p>
+                    <img src="img/Redação.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/tecnicas-computacionais-refletindo-sobre-ia/">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/femascheti/tecnicas-computacionais-refletindo-sobre-ia">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Curso do Alura</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O curso do Alura oferece uma otima plataforma para aprender programação.</p>
+                    <img src="img/programação.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/951732825/">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- Modal 4 -->
+     <div class="modal" id="modal4" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Olimpiada de historia</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                <p> A OBH e uma das melhores Olimpiadas para ingressar em uma universidade.</p>
+                    <img src="img/obh.png" alt= "projeto 4" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/minhas-leituras/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/F3lipe2A">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Fernanda Mascheti</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
